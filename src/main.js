@@ -1,6 +1,16 @@
-import './assets/styles/main.css'
-
-import { createApp } from 'vue'
-import App from './App.vue'
-
-createApp(App).mount('#app')
+// main.js
+const App = {
+    data() {
+      return {
+        message: "Дозирование материалов работает!"
+      }
+    },
+    template: `
+      <div>
+        <h1>{{ message }}</h1>
+      </div>
+    `
+  };
+  
+  const app = Vue.createApp(App);
+  app.mount('#app');
