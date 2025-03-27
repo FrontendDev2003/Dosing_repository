@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/Dosing_rep/'
+    publicPath: '/Dosing_repository/'
 }
